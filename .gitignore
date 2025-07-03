@@ -1,0 +1,47 @@
+# .gitignore pour React + TypeScript + Tailwind + Redux Toolkit (dossier: project)
+
+# Node modules
+project/node_modules/
+
+# Build output
+project/build/
+project/dist/
+
+# Environnements
+project/.env
+project/.env.local
+project/.env.development.local
+project/.env.test.local
+project/.env.production.local
+
+# Caches
+project/.cache/
+project/.turbo/
+project/.eslintcache
+project/.stylelintcache
+project/.parcel-cache/
+
+# Logs
+project/npm-debug.log*
+project/yarn-debug.log*
+project/yarn-error.log*
+
+# Tests & coverage
+project/coverage/
+
+# IDEs / OS
+project/.vscode/
+project/.idea/
+.DS_Store
+Thumbs.db
+
+# Tailwind
+project/src/tailwind.output.css
+
+# Lock files (si tu veux éviter les conflits multi-gestionnaire)
+project/yarn.lock
+project/package-lock.json
+
+# Autres
+project/.pnp
+project/.pnp.js
